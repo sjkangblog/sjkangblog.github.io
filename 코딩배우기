@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Suji Kang BLOG</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109889040-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+   gtag('config', 'UA-109889040-2');
+  </script>
+	
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Suji Kang BLOG</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Phdlife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="memo.html">Memo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h2>[코딩배우기] 어디서부터 시작해야할까?</h2>
+            <h2 class="subheading"> </h2>
+            <span class="meta">Posted by
+              <a href="#">Suji Kang</a>
+              on June 28, 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+		<br/>
+
+요즘 직장인, 학생, 취준생 구분 없이 많은 사람들이 코딩에 관심을 가지고 배우고자 한다. 내 주변에도 코딩을 배우려 하는 직장인 친구들, 대학원 친구들을 많이 있고, 이들이 '코딩을 어떻게 시작해야 하나' 고민하는 모습을 많이 본 적이 있다.
+<br/>
+<br/>
+
+나 또한 코딩을 처음 배울 때 많이 힘들어 했었다. 나는 대학원 입학 후, 코딩을 처음 접하기 시작했는데, 지도 교수님과 같이 공부하는 대학원 친구들 선배들의 도움을 아주 많이 받았다. 석사 지도 교수님께서는 한 학기 정도 매주 개별과제(?)처럼 (지금 생각하면) 간단한 과제를 내 주셨고, 일주일쯤 뒤에 교수님을 찾아뵙고 결과물을 보여드리는 형식이었다. 또 대학원때 학부 수업 조교로 코딩을 가르치고 수업자료를 만들어야 했는데, 그 한 학기동안 많은 시간을 밀도 있게 코딩에 투자할 수 있었다. 동시에 내가 수강하는 대학원 수업에서 처음으로 학기말 페이퍼에 R을 써서 데이터 분석을 해야 했고, 그 학기가 끝나자마자 학회에서 발표하게 되어 방학동안에도 코딩과 데이터 분석에 몰두했다. 그런 시간을 가지고 나서, R 프로그래밍 언어에 비교적 편안함?을 느꼈고, Python이라는 새로운 언어를 배우게 되었다 (나는 텍스트 데이터를 주로 다루었는데, 데이터 사이즈가 클 뿐만 아니라 몇몇 머신러닝 방법을 좀 더 편하게 쓰기 위해 파이선을 새로 공부하게 되었다). 석사 졸업까지 꾸준히 R과 파이선을 내 논문작성을 위해 쓰게 되면서 두 프로그램에 익숙해지게 되었다.
+<br/>
+<br/>
+
+STATA는 사실 석사 첫 학기때 수업에서 다뤄서 쓰긴 했지만, SAS(SAS는 박사과정 진학 후, 통계학과 수업에서 사용했다)처럼 유료이고, 점차 많은 사람들이 R이나 Python으로 넘어가는 추세를 느꼈기 때문에 계속 공부할 필요성을 느끼지 못했다. 박사과정 진학 후, 정치학(내 전공)과 수업에서는 R을 사용하고, 경영대 수업에서는Python을 사용하면서 꾸준히 코딩을 공부할 기회를 얻을 수 있었다. 또 mba 수업과 정치학과 학부수업 조교를 하게 되면서 R을 가르칠 기회도 여러번 있었는데, TA session(내가 조교로서 가르치는 수업) 자료를 준비하면서 또 많은걸 배우게 된 것 같다.
+<br/>
+<br/>
+
+그럼, 흔히 "코딩을 배운다"고 하는데, 코딩을 하려면 어떤 "프로그램"이 필요할까? 위의 내 경험담에서 여러 프로그램을 언급했지만, 내가 다뤄본 프로그램만 나열하자면, R, Python, STATA, SAS와 같은 네 가지 프로그램이 있다. 주변에서 어떤 프로그래밍 언어를 배울까 고민하는데 많은 시간을 쓰는 사람을 여럿 본 적이 있는데, 쉬운 결정이 아닐 수 있다. 외국어에 비유하자면 '어떤 제2외국어를 공부할까'와 같은 결정이 아닐까.
+<br/>
+<br/>
+
+내가 알고있는 수준에서 R, Python, STATA, SAS 네 프로그램을 간단히 설명해보고자 한다. 우선 내가 학부부터 석사, 박사과정까지 공부하고 있는 분야는 사회과학에 해당하는 정치학이기 때문에, 사실 내 주변 친구들과 교수님들(정치학, 경제학, 사회학, 통계학, 경영학, 심리학 등)이 어떤 프로그램을 쓰는지밖에 알지 못한다 (물론 사촌동생과 내 예전 과외 선생님이 컴퓨터공학, 산업공학 전공이고 이 둘을 통해 컴퓨터공학 학생들은 대부분 Python, C++, Java를 많이 사용하는 것 정도로 알고 있다). 내가 알기론 R은 통계학자들이 많이 쓰는 프로그램이고, 경험상 그래프와 같은 아웃풋이 Python보다 좀 더 시각적이로 예쁘게 나온다. 이에 반해 Python은 머신러닝에 좀 더 강하고, 데이터 사이즈가 아주 큰 경우 유리하다. 그리고 Python은 웹 어플리케이션을 만드는 데 사용될 수 있다. STATA는 경제학자들이 비교적 많이 사용하는 듯 하고, 복잡한 명령어 등을 잘 몰라도 훨씬 더 간단한 프로그램이기 때문에 쉽게 이용할 수 있다. 하지만 머신러닝이나 복잡한 통계분석 등의 작업은 제한적이거나 할 수 없다. SAS는 사실 가장 조금 써 본 프로그램이라 자세히 설명할 수는 없지만 통계학과 수업을 들을 당시 교수님께서 통계학자들 사이에서도 학계에서는 R을 많이 사용하고 산업에서는 여전히 SAS를 많이 사용한다고 하셨던 기억이 난다. 내 주변에서는 finance 분야를 공부하는 친구나 경제학과 대학원생 몇명이 SAS를 쓰는 것을 본 적이 있다.
+<br/>
+<br/>
+
+어떤 프로그래밍 언어를 배우고 사용할지 고민할 때는, 본인이 필요한 작업에 대해 고민하는 것도 중요하지만, 본인이 몸담고 있는 분야의 다른 사람들이 어떤 프로그램을 많이 사용하는지도 고려할 필요가 있다. 내가 아무리 Python을 좋아하고 R 보다 매력적이라고 느껴도, 대부분의 정치학자들은 Python보다는 R을 훨씬 더 많이 사용하기 때문에, 이들과 같이 논문 작업을 하거나 교류하기 위해서는 R을 알아둘 필요가 있다 (물론 많은 정치학자들이 Python도 사용한다. 하지만 내가 알기론 정치학자들 중 Python을 쓰는 사람들은 대부분 이미 R을 쓸 줄 안다. 하지만 R을 쓴다고 해서 Python을 아는 사람은 그리 많지 않고, 그 말은 R을 쓰는 사람들이 훨씬 많다는 것).
+<br/>
+<br/>
+
+다시 간단히 말하면, 정치학에서는 대부분 R을 다룰줄 안다. 내가 알기론 거의 모든 미국대학 정치학과 박사과정에서는 1년차 필수 방법론 수업에서 R을 이용해서 데이터 분석과 계량학을 배운다. 한국에서 석사를 하며, 그리고 미국에서 박사과정학생으로 있으면서 느낀 바로는, 사회학과 학생/교수들이 쓰는 프로그래밍 언어가 정치학과와 꽤 유사한 것 같다 (대부분 R을 선호하며 Python 또한 많이 사용함). 경제학은 꽤 다양한 것을 알 수 있었는데, 한국이나 미국이나 STATA, R, Python을 다양하게 많이 사용하는 것 같았다. 통계학은 R 또는 SAS를 많이 사용하는 것 같았다. 경영학 박사과정 친구들은 R, Python, STATA를 모두 사용하는 것 같았고, 경영학 mba 수업에서는 STATA나 R을 썼지만 최근에는 모든 수업에서 R을 사용하도록 바꾸는 추세인 것 같다. 이렇게 적고보니 조금씩 다르긴 하지만 결국 사회과학에서는 앞서 언급한 네 프로그램을 고루 사용하고 있는 듯 하다.
+<br/>
+<br/>
+
+각 프로그램에 대한 내 개인적인 의견을 말하자면, 나라면 R이나 Python을 배울 것을 적극 추천한다. STATA와 SAS는 유료이고 (비쌈), 최근에 산업과 학계 구분없이 대부분 R과 Python이라는 두 무료 프로그래밍 언어로 전환하고 있는 추세이기 때문이다. 이는 내가 나중에 취업을 하건, 교수로 임용이 되건, 계속 학생으로 공부를 하건 R이나 python을 사용함으로써 더 많은 기회를 얻을 수 있다는 의미가 아닐까.
+<br/>
+<br/>
+
+단, R과 Python 중에 어떤 언어를 선택할 것이냐라고 물어본다면, 음.. 여기서는 조금 고민이 된다. 아직은 대부분의 사회과학 학과에서 R을 더 많이 사용하지만, 산업에서는 Python을 훨씬 많이 사용하는 것 같고, 또 학계도 Python을 점점 더 많이 사용하는 추세인 것 같기 때문이다. 사실 R과 Python은 꽤나 비슷한 문법과 기능을 가지고 있기 때문에 둘 중 하나를 선택하여 편해질 때까지 공부하고 다른 언어로 넘어가는 것도 괜찮은 방법이다. 아마 이미 R을 사용하는 것이 편하다면, Python을 공부하는데 큰 어려움이 없을 것이다.
+<br/>
+<br/>
+
+어떤 프로그래밍 언어를 배울지 선택했다면, 이제 무엇을 해야할까? 무수히 많은 방식이 있겠지만, 내 경험을 바탕으로 다음과 같은 방식들을 권하고 싶다.
+<br/>
+<br/>
+
+1. 일단 프로그램을 설치하자
+<br/>
+<br/>
+일단 배우기로 결정한 프로그램을 본인 컴퓨터에 최대한 빨리 설치할 것을 권장한다. '시작이 반'이라는 말은 코딩학습에 가장 적합한 듯 하다. R을 배우기로 했으면 우선 R 프로그램을, Python을 배우기로 했으면 일단 Python을 바로 설치하도록 하자 (맥북의 경우 이미 Python이 설치되어 있다). SAS와 STATA는 앞서 말했듯이 유료이기 때문에 대학이나 기관, 또는 개별적으로 구입해야 한다.
+<br/>
+<br/>
+* R이나 Python을 사용하는 경우, R 유저들은 R studio를, Python 유저들은 jupyter notebook을 설치하여 사용할 것을 권장한다 (R과 R studio를 모두 설치해야하고, 파이선과 jupyter notebook을 모두 설치해야 R 또는 파이선을 사용할 수 있다). 쉽게 말해, R -> R studio 설치 후, R studio라는 프로그램을 이용하면 모든 기능이 R에서 작업하는 것과 동일하지만, 사용자가 코딩을 하면서 결과를 확인하기가 훨씬 더 쉽고, 코드 스크립트를 작성하기가 더 쉽다. 또 코드를 한줄씩 실행하면서 결과를 확인하고, 코드를 수정하기에 훨씬 더 용이하다.
+<br/>
+<br/>
+
+설치링크
+<br/>
+<br/>
+Python install (https://www.python.org/downloads/)
+<br/>
+Jupyter Notebook install (https://jupyter.org/install)
+<br/>
+<br/>
+
+R install (https://cloud.r-project.org/)
+<br/>
+R Studio install (https://rstudio.com/products/rstudio/download/)
+
+<br/>
+<br/>
+
+2. 인터넷강의 이용하기
+<br/>
+<br/>
+원하는 프로그램을 설치했다면, 그 다음으로 어떻게 해야할까? 빈 윈도우만 처다보고 "Hello World!"나 "7+10" 등의 단순연산만 하고 있을 수는 없다. 다행히 요즘은 다양한 인터넷 강의를 통해 코딩을 굉장히 쉽게 배울 수 있다. 아마도 좋은 인강이 많이 있겠지만, 내가 실제로 이용해보고 좋다고 느낀 사이트 몇 개를 추천하고자 한다.
+<br/>
+<br/>
+
+data camp (영어강의): 내가 지금 공부하고 있는 대학에서 제휴를 맺어 듣게 된 인터넷 강의 (파이선이나 R 인트로 수업은 모두에게 무료이다). 올해 봄학기에 경영학과 머신러닝 수업에서 파이선을 써야해서, 방학때 미리 파이선 강의를 몇개 들어 봤었는데 아주 따라하기 쉽게 구성되어 있었다. 강사가 영상에서 혼자 계속 설명하하는 방식이 아니라, 간단한 설명과 혼자 직접 코딩을 해 볼 수 있는 시간이 번갈아 주어진다. 일단 강사가 짤막한 영상으로 무엇에 대해서 배울지 간단히 설명해준다. 그리고 난 다음, R이나 Python 화면이 뜨고, 퀴즈 형식으로 문제를 풀듯이 코드를 한줄씩 입력하고 답을 확인하는 형식으로 되어있다. 30분짜리 영상을 쭉 보면서 일시정지, 다시재생을 해가며 코딩을 따라하는 것 보다, 혼자서 생각할 시간을 가지면서 퀴즈 형식으로 코드를 직접 입력해 보는 것이 훨씬 더 도움이 되는 것 같다.
+<br/>
+<br/>
+
+mooc, coursera (영어강의): 두 사이트 또한 고퀄리티의 코딩 수업을 제공한다. 사실 이 두 사이트는 내가 사용해본지가 꽤 오랜 시간이 지나서 정확한 포맷은 기억이 나지 않지만, 대부분 30분짜리 영상으로 수업이 구성되어 있었던 것 같다. 하지만 여전히 미국에서 굉장히 유명한 사이트이고 많은 사람들이 코딩이나 머신러닝, 수학 등 다양한 주제에 대해 배우고 싶을때 꽤 수준 높은 수업을 수강할 수 있는 사이트이다. Data camp와 mooc, coursera 모두 아주 좋은 소스이지만, 단점은 모든 강의가 영어로 되어 있다는 점과 몇가지 강의를 제외하고 대부분의 강의가 유료라는 점이다. 만약 미국 대학에서 공부하고 있는 학생이라면 학교에서 이 사이트의 subscription을 무료로 제공하는지 꼭 확인해보길 바란다.
+<br/>
+<br/>
+
+생활코딩 (한국어 강의): 이 사이트는 아주 유명해서 많은 사람들이 이미 알고 있을 듯 하다. 하지만 코딩에 입문하는 사람이라면 아직 모를 수도 있기 때문에 공유하려 한다. 생활코딩은 모든 영상을 무료로(!!) 제공하는 사이트이다. Java부터 파이선, 루비까지 여러 프로그래밍 언어에 대한 강의를 무료로 제공한다. 다만, R을 배울 수 있는 강의는 없는 듯 하다. 아래 링크로 들어가면 파이선 설치부터 다양한 명령어에 대한 강의를 무료로 들을 수 있다.
+<br/>
+<br/>
+
+https://opentutorials.org/course/1750/9609
+<br/>
+<br/>
+
+kmooc (한국어 강의): 이 사이트는 미국의 mooc과 거의 유사하지만 한국어로 된 강의를 제공한다. 마찬가지로 꼭 코딩뿐만 아니라 머신러닝이나 수학도 배울 수 있다. 이 사이트를 사용했던 것이 3-4년 전 쯤이었는데, 여전히 많은 강의가 무료로 제공되는지는 확실하지 않다. 하지만 한국어 강의이고 무료이기 때문에, 들어가서 R이나 파이선 기초 수업이 있는지 확인해 보는게 좋을 것 같다. 그리고 많은 강의를 대학 교수나 전문 강사가 진행하기 때문에 꽤 높은 퀄리티를 기대할 수 있다.
+<br/>
+<br/>
+
+3. 질문 검색해보기: stack overflow (코더들의 지식인)
+<br/>
+<br/>
+네이버 지식인을 이용하듯이, 코딩을 하다 막히면 누군가에게 물어보고 싶을 때가 많다. 지금 내 코드에 왜 오류가 나는지, 내가 원하는 작업을 하려면 어떤 명령어를 써야하는지 등에 대한 질문에 누군가가 바로바로 답을 해준다면 작업을 훨씬 빨리 진행할 수 있을 것이다. 다행히도 stack overflow라는 사이트를 통해 아주 자세한 해답을 얻을 수 있다. 구글에서 질문내용과 stack overflow를 함께 검색하면 웬만한 질문에 대한 대답은 거의 다 있으리라 생각한다. 예를 들어, R에서 다른 두 데이터(두 개의 엑셀파일 데이터를 상상해보자)를 하나의 데이터로 합치고 싶은데 어떤 명령어를 써야할지 모르겠다면, 구글에서 "merge two datasets in r: stack overflow"라고 검색해보자. 그럼 아래와 같이 이미 다른사람들이 유사한 질문을 올려 놓은 것을 볼 수 있고, 예시와 설명을 통해 "merge"라는 명령어를 써서 두 데이터 프레임을 하나로 합칠 수 있다는 답을 쉽게 얻을 수 있다. 생각보다 거의 모든 질문에 대한 답이 존재하고, 거의 모든 답변에 예시가 함께 있기 때문에 아주 유용한 사이트이다. 실제 코딩작업에 돌입했다면 질문이 있을때 끙끙대지말고 꼭 이 사이트를 이용해보길 바란다.
+<br/>
+<br/>
+
+4. 책 이용하기
+<br/>
+<br/>
+개인적으로 책으로 코딩을 공부하는 것은 사실 크게 추천하지 않는다. 나는 책은 딱 두권 정도만 본 것 같은데, 그 중 거의 모든 챕터를 꼼꼼하게 보고 책에 있는 거의 모든 예제 코드를 다 실행해 본 유일한 책은 이 한권("빅데이터 분석 도구 R 프로그래밍")인 듯 하다. 사실 이 책은 내가 석사때 조교로 들어간 학부수업에서 수업교재로 사용했기 때문에, 내가 관련 수업자료를 만들다보니 자연스럽게 읽게 된 책이다. 수업자료를 준비하기 위해 책을 꼼꼼하게 읽고, 책에 있는 거의 모든 예제를 다 따라해본 기억이 난다. 하지만 사실 책에 있는 코드를 하나하나 따라한다고 해서 기억에 잘 남는다거나 명령어를 완벽하게 이해할 수는 없는 것 같다. 여러권의 책을 많이 구입해서 다 공부할 필요는 더더욱 없는 것 같고, 내 생각에는 참고용으로 한두권 정도의 책을 구입해서 질문이 있을 때 마다 목차를 참조하여 책의 설명을 찾아볼 것을 권유한다. 앞서 말한 "빅데이터 분석 도구 R 프로그래밍 (에이콘출판사)" 책은 R 프로그래밍에 대한 책이며 (파이선은 책으로 공부한 적이 없다..), 꽤 두꺼운 책인데, 챕터별로 굵직하게 꼭 필요한 개념과 명령어들이 잘 설명되어 있다. 다만 번역본의 경우 번역이 매끄럽지 못해서 한국말이지만 잘 이해가 안가는 부분이 있을 수 있다. 영어가 편하다면 원서("The Art of R Programming")로 읽기를 추천한다.
+<br/>
+<br/>
+
+5. 과외받기
+<br/>
+<br/>
+사실 이 방법은 바쁜 직장인이나 대학원생처럼 시간은 없는데 코딩을 빠르게 배워서 써야하는 사람들에게 가장 효율적인 방법이 아닐까 싶다. 나도 석사를 할 때, 학기 중에 파이선을 배워야 해서 같은 대학에서 산업공학을 공부하는 석사생에게 과외를 받았다. 코딩으로 하고 싶은 구체적인 작업이 있는 경우, 특히 효율적인 방법이라고 생각한다. 또한, 과외 선생님께 내가 궁금한 점을 편하게 질문하고 그에 대한 답을 낭비하는 시간 없이 바로바로 얻을 수 있기 때문에 사실 과외비만 아니라면 과외를 받는 방법이 코딩학습에 가장 빠르고 좋을 수 있다. 아, 물론 과외비도 비싸지만, 코딩을 가르쳐주는 학원이나 기관에서 요구하는 수업료도 만만치 않은 것 같다. 비슷한 비용이라면 오히려 1:1 과외를 받는 것을 훨씬 더 추천한다.
+<br/>
+<br/>
+
+6. 코딩으로 간단한 작업 & 프로젝트 해보기 (가장 중요!)
+<br/>
+<br/>
+이 단계가 마지막이자 가장 중요한 단계라고 생각한다. 과외든, 책이든, 인강이든 다양한 방법으로 지식을 습득했다면 결국은 배운 것을 써먹어야 내 것이 되기 마련이다. 예를 들어, 구글트렌드 (구글 서치 검색어 데이터) 같은 빅데이터지만 무료 데이터를 다운받아서, 시간이나 지역에 따라 검색어 흐름이 어떻게 다른지, 여러 검색어 간 어떤 상관관계를 보이는지와 같은 간단한 작업을 해볼 수 있다. 또한 학생이거나 직장인이라면, 본인 분야와 관련된 데이터를 가져와서 (오히려 데이터를 모으는 과정에서 꽤 오랜 시간이 소요되기 때문에 접근성이 높고 무료로 얻을 수 있는 데이터를 찾아보는 것이 좋다), 본인 전공/일과 관련된 아주 간단한 작업을 하나 해보는게 어떨까. 코딩을 배우고자 하는 친구들, 직장동료, 커뮤니티 사람들과 함께 타임라인을 정해놓고 각자의 과제를 한 다음 공유하는 방식도 좋을 듯 하다.
+<br/>
+<br/>
+
+코딩을 배우고자 할 때, 시작이 막막할 수 있다. 나도 처음에 지도교수님께서 개인 과제를 주고 꼼꼼히 신경써 주시지 않았더라면 꽤 오랜시간 동안 막막해 하면서 시간을 낭비했을지도 모른다. 하지만 요즘은 인터넷 강의나 다양한 소스가 많기 때문에 훨씬 더 빠르게 배울 기회가 많다고 생각한다. 혹시 코딩을 시작하려는 분이라면, 위의 방법들을 이용해서 코딩독학을 도전해 보는 것은 어떨까.
+<br/>
+<br/>
+
+* 혹시 다른 좋은 강의사이트/소스를 알고 계시다면 공유 부탁드립니다!
+
+    <br/>
+		<br/>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
