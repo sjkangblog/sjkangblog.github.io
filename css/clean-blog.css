@@ -407,3 +407,44 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+/* 공감버튼 스타일 */
+.container_postbtn .postbtn_like {
+	float: none !important;
+	width: fit-content;
+	max-width: 120px;
+	margin:auto;
+	border: none !important;
+}
+/* large empathy */
+/* 공감버튼 테두리 */
+.postbtn_like .wrap_btn:first-of-type {
+	display: block;
+	margin-bottom: 32px;
+	width: 100%; text-align: center;
+	margin: auto;
+	border: 1px lightgray solid; /* 테두리 제거하려면 0px */
+	padding: 4px 0 28px 0;
+	border-radius: 8px;
+}
+.postbtn_like .wrap_btn .ico_like{
+	display: block !important;
+	background-size: 432px 144px !important;
+	background-image: url(./images/bssowSpriteMin.png);
+	background-position: calc(-36px * 2) calc(-36px * 3) !important;
+	width: 36px !important;	height: 36px !important; max-width: 36px !important;
+	margin: 0 auto  !important;
+}
+.postbtn_like .wrap_btn .empathy_up_without_ani .ico_like { 
+	background-size: 432px 144px !important;
+	background-image: url(./images/bssowSpriteMin.png);
+	background-position: calc(-36px * 3) calc(-36px * 3) !important;
+}
+/* 포스트 버튼 그룹 정렬 */
+.container_postbtn {
+	width: fit-content;
+	margin: 40px auto;
+	text-align: center;
+}
+.container_postbtn .postbtn_like .wrap_btn { display: inline-block; float: none !important; }
+/* 공감버튼 끝 */
+
