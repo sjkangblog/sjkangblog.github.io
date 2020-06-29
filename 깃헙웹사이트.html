@@ -32,10 +32,7 @@
   </script>
   
   <!-- Like Button -->
-  <!-- add the button style & script -->
-  <link rel="stylesheet" href="css/applause-button.css" />
-  <script src="js/applause-button.js"></script>
-	
+
 </head>
 
 <body>
@@ -116,8 +113,7 @@
 	
 	<!-- Like Button -->
 	<p> </p>
-	<!-- add the button! -->
-  	<applause-button style="width: 58px; height: 58px;"/>
+	<div class="rw-ui-container"></div>
 	
 	<p> </p>
 	<!-- SNS share websites --> 
@@ -170,6 +166,50 @@
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
 
+
+  <!-- Like Button -->
+  <script type="text/javascript">(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){
+                
+        RW.init({
+            huid: "461618",
+            uid: "6f3df13a6e5c2772ca3de8a0d0e665a3",
+            source: "website",
+            options: {
+                "advanced": {
+                    "layout": {
+                        "align": {
+                            "hor": "center",
+                            "ver": "bottom"
+                        }
+                    },
+                    "nero": {
+                        "showDislike": false
+                    }
+                },
+                "size": "large",
+                "type": "nero",
+                "style": "thumbs",
+                "isDummy": false
+            } 
+        });
+        RW.render();
+    };
+        // Append Rating-Widget JavaScript library.
+    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+    if (d.getElementById(id)) return;              
+    rw = d.createElement(e);
+    rw.id = id; rw.async = true; rw.type = "text/javascript";
+    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+    s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));</script>
+	
 </body>
 
 </html>
