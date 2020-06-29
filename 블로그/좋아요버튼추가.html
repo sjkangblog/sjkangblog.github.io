@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>블로그/웹사이트에 페이스북 좋아요 버튼 추가하기 Suji Kang BLOG</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109889040-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+   gtag('config', 'UA-109889040-2');
+  </script>
+  
+</head>
+
+<body>
+
+<!-- Facebook Like -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v7.0" nonce="134FDVK9"></script>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Suji Kang BLOG</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Phdlife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="memo.html">Memo</a>
+          </li>
+          <li class="nav-item"
+          >
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h2>블로그/웹사이트에 페이스북 좋아요 버튼 추가하기</h2>
+            <h2 class="subheading"> </h2>
+            <span class="meta">Posted by
+              <a href="#">Suji Kang</a>
+              on June 29, 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+		<br/>
+    몇일 전 새로 만든 블로그는 github page를 통해 내가 직접 만든 웹페이지이기 때문에, 블로그 구성을 바꾸고 싶거나 기능을 추가하고 싶으면 직접 구글링/네이버 검색 후 html 코드를 수정해야 한다.
+    <br/>
+	  <br/>
+    오늘은 2가지 작업을 했는데, 우선 페이스북과 연동된 "좋아요" 기능을 블로그 포스팅 아래에 추가하는 작업을 했다. 두번째 작업은 내가 작성한 글을 다른 사람들이 페이스북, 트위터, 네이버, 카카오스토리에 공유할 수 있는 버튼과 기능을 추가하는 것인데, 그 내용은 다음 포스팅에서 설명하려 한다.
+    <br/>
+	  <br/>
+    페이스북과 연동된 "좋아요" 기능을 깃허브로 만든 블로그에 추가하는 작업은 비교적 간단했는데, 아래 Facebook for Developers 사이트를 이용하면 어려울 것이 전혀 없다. (워드프레스, 텀블러, 티스토리, 블로거 등 다양한 형태의 블로그에 모두 추가할 수 있다.)
+    <br/>
+	  <br/>
+    <a href="https://developers.facebook.com/docs/plugins/like-button?locale=ko_KR"> https://developers.facebook.com/docs/plugins/like-button?locale=ko_KR </a>
+    <br/>
+	  <br/>
+    1. 우선, 좋아요 버튼을 추가할 웹페이지 화면의 URL 주소를 가져온다.
+    <br/>
+    2. 다음으로 좋아요 버튼 중 원하는 모양의 버튼을 선택한다 (좋아요 수를 보여주는 버튼, 공유하기까지 함께 있는 버튼 등 여러 형태가 있다).
+    <br/>
+    3. 버튼 미리보기를 통해 블로그 화면에 들어갈 버튼 모양을 확인하고
+    <br/>
+    4. "코드 가져오기" 버튼을 클릭해서 코드를 복사한다.
+    <br/>
+    5. 복사한 코드를 "좋아요" 버튼을 추가할 블로그 html 코드에 붙여넣으면 끝!
+    <br/>
+    <br/>
+    단, 위 사이트에서 "코드 가져오기"를 하면 코드가 두개가 나오는데, 첫번째 코드는 html 코드 body 부분이 시작하는 곳 넣고, 두번째 코드는 화면상 "좋아요" 버튼을 위치시키고 싶은 곳에 넣으면 된다.
+    <br/>
+    <br/>
+    짠. 아래 그림처럼 게시글 아래에 페이스북 "좋아요" 버튼이 추가된 것을 볼 수 있다. 원한다면 좋아요 버튼뿐만 아니라 공유하기 버튼도 함께 추가할 수 있다. 좋아요 버튼과 공유하기 버튼을 클릭하면, 페이스북에 로그인이 되어 있는 경우, 바로 좋아요가 눌러지거나 본인 피드에 해당 글이 공유된다. 그리고 좋아요 버튼 옆에 버튼을 누른 사람 수가 카운트 되기 때문에 글을 쓴 사람 입장에서도 몇명이 좋아요 버튼을 눌렀는지 쉽게 확인할 수 있다.
+    <br/>
+    <br/>
+    <img class="img-fluid" src=" https://imgur.com/CqgxWGq.png">
+    <br/>
+    <br/>
+    깃허브로 블로그를 직접 만드는 경우, 본인이 html 코드를 직접 수정해야한다는 번거로움이 있지만, 장기적으로 봤을 때는 워드프레스처럼 유료로 서비스를 업그레이드를 할 필요가 전혀 없고, 티스토리, 네이버 블로그처럼 블로그 저품질이나 광고 게제에 대한 제약을 전혀 받지 않는다는 큰 장점이 있다. 앞으로도 이 새로운 블로그를 꾸준히 관리할 예정이다.
+    <br/>
+    <br/>
+    다음 게시글에서는 블로그 포스팅 하단에 SNS 공유버튼을 추가하는 법에 대해 설명해 보아야 겠다.
+        </div>
+      </div>
+    </div>
+	 
+</article>
+
+	<div class="container">
+	<div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+	<ul class="list-inline text-center">
+          
+		<!-- Facebook Like Button -->
+		<p> </p>
+		<div class="fb-like" data-href="https://sjkangblog.github.io/sns%EA%B3%B5%EC%9C%A0%EB%B2%84%ED%8A%BC%EB%84%A3%EA%B8%B0.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+	
+	</ul>
+        </div>
+      </div>	    
+    </div>  
+	
+	<p> </p>
+	<!-- SNS share websites --> 
+		<script type="text/javascript" async> var url_default_ks = "https://story.kakao.com/share?url="; var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u="; var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; var url_default_tw_url = "&url="; var url_default_band = "http://band.us/plugin/share?body="; var url_route_band = "&route="; var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; var title_default_naver = "&title="; var url_this_page = location.href; var title_this_page = document.title; var url_combine_ks = url_default_ks + url_this_page; var url_combine_fb = url_default_fb + url_this_page; var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page; var url_combine_band = url_default_band + encodeURI(url_this_page)+ '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com'; var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); </script>
+	<!-- SNS share buttons begin --> 
+		<div style="width: 100%; text-align: center; margin-bottom: 64px;"> 
+			<!-- Facebook share button --> 
+			<a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="https://imgur.com/2pxqHxt.png" title="페이스북으로 공유하기" class="sharebtn_custom" style="width: 48px;"></a> 
+			<!-- Twitter share button --> 
+			<a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="https://imgur.com/z7V4qga.png" title="트위터로 공유하기" class="sharebtn_custom" style="width: 48px;"></a> 
+			<!-- Naver share button --> 
+			<a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="https://imgur.com/AYqtESo.png" title="네이버로 공유하기" class="sharebtn_custom" style="width: 48px;"></a> 
+			<!-- Kakao story share button --> 
+			<a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="https://imgur.com/mIW39pd.jpg" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 48px;"></a>
+		</div> 
+	<!-- SNS share buttons end -->
+  <hr>
+	
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+	<div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+          
+	<!-- Coupang Partners -->
+  		<script src="https://ads-partners.coupang.com/g.js"></script>
+		<script>
+		new PartnersCoupang.G({ id:264853 });
+		</script> 
+          </ul>
+	<ul class="list-inline text-center">
+          <!-- Coupang Partners -->
+		<p> </p>
+  		<a href="https://coupa.ng/bE3edA" target="_blank"><img src="https://ads-partners.coupang.com/banners/243450?subId=&traceId=V0-301-371ae01f4226dec2-I243450&w=728&h=90" alt=""></a>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Suji Kang BLOG 2020</p>
+        </div>
+      </div>	    
+    </div>  
+    
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+	
+</body>
+
+</html>
