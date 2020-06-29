@@ -32,8 +32,7 @@
   </script>
   
   <!-- Like Button -->
-  <link rel="stylesheet" href="css/applause-button.css" />
-  <script src="js/applause-button.js"></script>
+  
 	
 </head>
 
@@ -115,9 +114,45 @@
 	
 	<!-- Like Button -->
 	<p> </p>
-	<div style="width: 100%; text-align: center; margin-bottom: 64px;">
-		<applause-button style="width: 58px; height: 58px;"/>
-		</div> 
+
+	<script type="text/javascript">(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){
+                
+        RW.init({
+            huid: "461618",
+            uid: "6f3df13a6e5c2772ca3de8a0d0e665a3",
+            source: "website",
+            options: {
+                "advanced": {
+                    "layout": {},
+                    "nero": {
+                        "showDislike": false
+                    },
+                    "font": {}
+                },
+                "size": "",
+                "type": "nero",
+                "style": "thumbs",
+                "isDummy": false
+            } 
+        });
+        RW.render();
+    };
+        // Append Rating-Widget JavaScript library.
+    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+    if (d.getElementById(id)) return;              
+    rw = d.createElement(e);
+    rw.id = id; rw.async = true; rw.type = "text/javascript";
+    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+    s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));</script>
+	
 	<p> </p>
 	<!-- SNS share websites --> 
 		<script type="text/javascript" async> var url_default_ks = "https://story.kakao.com/share?url="; var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u="; var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; var url_default_tw_url = "&url="; var url_default_band = "http://band.us/plugin/share?body="; var url_route_band = "&route="; var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; var title_default_naver = "&title="; var url_this_page = location.href; var title_this_page = document.title; var url_combine_ks = url_default_ks + url_this_page; var url_combine_fb = url_default_fb + url_this_page; var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page; var url_combine_band = url_default_band + encodeURI(url_this_page)+ '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com'; var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); </script>
