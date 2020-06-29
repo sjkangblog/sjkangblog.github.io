@@ -98,9 +98,29 @@
 		<br/>
 		<br/>
 아래에 있는 코드를 그대로 붙여넣기 하면 되는데, 나는 아래 코드를 footer가 시작되기 바로 전 부분에 붙여 넣었다 (웹 화면에서 SNS 공유버튼을 위치고 싶은 곳에 아래 코드를 붙여넣기 해주면 된다).
-    <br/>
+   		<br/>
 		<br/>
-        <xmp> 
+		<script type="text/html"> 
+<!-- SNS share websites --> 
+<script type="text/javascript" async> 
+var url_default_ks = "https://story.kakao.com/share?url=";
+var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; 
+var url_default_tw_url = "&url="; 
+var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; 
+var title_default_naver = "&title="; 
+var url_this_page = location.href; 
+var title_this_page = document.title; 
+var url_combine_ks = url_default_ks + url_this_page; 
+var url_combine_fb = url_default_fb + url_this_page; 
+var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page; 
+var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); 
+   		</script>
+		
+		<br/>
+		<br/>
+
+<xmp> 
 <!-- SNS share websites --> 
 <script type="text/javascript" async> 
 var url_default_ks = "https://story.kakao.com/share?url=";
@@ -131,7 +151,7 @@ var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_def
 <!-- Kakao story share button --> 
 <a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;">
 <img src="https://imgur.com/mIW39pd.jpg" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 48px;"></a>
-</div> 
+</div>
         </xmp>
     <br/>
 		<br/>
