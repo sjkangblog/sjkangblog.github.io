@@ -100,27 +100,10 @@
 아래에 있는 코드를 그대로 붙여넣기 하면 되는데, 나는 아래 코드를 footer가 시작되기 바로 전 부분에 붙여 넣었다 (웹 화면에서 SNS 공유버튼을 위치고 싶은 곳에 아래 코드를 붙여넣기 해주면 된다).
    		<br/>
 		<br/>
-		<script type="text/html"> 
-<!-- SNS share websites --> 
-<script type="text/javascript" async> 
-var url_default_ks = "https://story.kakao.com/share?url=";
-var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
-var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; 
-var url_default_tw_url = "&url="; 
-var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; 
-var title_default_naver = "&title="; 
-var url_this_page = location.href; 
-var title_this_page = document.title; 
-var url_combine_ks = url_default_ks + url_this_page; 
-var url_combine_fb = url_default_fb + url_this_page; 
-var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page; 
-var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); 
-   		</script>
 		
-		<br/>
-		<br/>
-
-<xmp> 
+<!-- Example Code begins --> 
+	<font size="1em" color="green">
+	<xmp> 
 <!-- SNS share websites --> 
 <script type="text/javascript" async> 
 var url_default_ks = "https://story.kakao.com/share?url=";
@@ -153,6 +136,10 @@ var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_def
 <img src="https://imgur.com/mIW39pd.jpg" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 48px;"></a>
 </div>
         </xmp>
+	</font>
+<!-- Example Code ends --> 
+		
+		
     <br/>
 		<br/>
     "SNS share buttons" 부분에 있는 html 코드를 보면, 페이스북, 트위터, 네이버, 카카오스토리 버튼 이미지를 삽입하는 부분이 있는데, 이미지는 내가 인터넷 상에 업로드를 해놓고 링크로 이미지를 가져오는 것이기 때문에 저 주소들이 잘 작동할거라 생각한다. 만약 혹시라도 작동하지 않는다면, 마음에 드는 버튼 이미지를 다운받은 후, 사용하면 된다. 
