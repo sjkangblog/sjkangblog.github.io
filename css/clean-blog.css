@@ -410,11 +410,11 @@ footer .copyright {
 
 /* Footnotes start */  
 .wordNote {
-  /* text-decoration-line: underline; */
-  /* text-decoration-style: dotted; */
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
   cursor: help; 
   color: dimgray; 
-  /* font-weight: bold; */
+  font-weight: bold;
   position: relative; 
 } 
 
@@ -443,11 +443,7 @@ footer .copyright {
   top: 25%; 
   z-index: 1; } 
 
-.wordNote:hover 
-
-.wordNoteText { 
-  visibility: visible; 
-}
+.wordNote:hover .wordNoteText {visibility: visible; }
 /* Footnotes end */
 
 
