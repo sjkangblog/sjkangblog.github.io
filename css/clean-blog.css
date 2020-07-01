@@ -407,3 +407,48 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+/* Footnotes start */  
+.wordNote {
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: dotted; */
+  cursor: help; 
+  color: dimgray; 
+  font-weight: bold; 
+  position: relative; 
+} 
+
+.wordNote:after {
+  content: "note"; 
+  vertical-align: top; 
+  font-size: 0.6em; 
+  text-decoration: inherit; 
+  text-decoration-color: white; 
+} 
+
+.wordNoteText {
+  visibility: hidden; 
+  width: 250px; 
+  background-color: white; 
+  padding: 12px 6px; 
+  border: solid 1px dimgray; 
+  border-radius: 6px; 
+  box-shadow: 0 1px 10px rgba(127, 127, 127, 1); 
+  font-weight: normal; 
+  font-size: 14px; 
+  text-align: center; 
+  overflow-wrap: break-word; 
+  position: fixed; 
+  left: calc(50% - 125px - 1px - 6px); 
+  top: 25%; 
+  z-index: 1; } 
+
+.wordNote:hover 
+
+.wordNoteText { 
+  visibility: visible; 
+}
+/* Footnotes end */
+
+
+
