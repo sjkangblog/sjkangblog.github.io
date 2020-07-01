@@ -94,6 +94,7 @@
 오늘 한 작업은 github page로 만든 블로그 게시글 하단에 댓글 기능을 추가하는 작업이다. 직접 html 코드를 이용해서 만든 블로그 또는 웹사이트에 댓글 기능을 어떻게 추가할지 몰라 막막할지도 모른다.
 하지만 다행히 Facebook for Developers 페이지를 이용하면 댓글 기능을 아주 쉽게 추가할 수 있다. 
 		<br/>
+		<br/>
 Facebook for Developers 페이지: <a href="https://developers.facebook.com/docs/plugins/comments#moderation"> https://developers.facebook.com/docs/plugins/comments#moderation</a>
 		<br/> 
 		<br/>
@@ -155,6 +156,24 @@ Facebook for Developers 페이지: <a href="https://developers.facebook.com/docs
 			<a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="https://imgur.com/mIW39pd.jpg" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 48px;"></a>
 		</div> 
 	<!-- SNS share buttons end -->
+
+	<!-- Comments begin -->
+	<div class="container">
+	<div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+	<ul class="list-inline text-center">
+	
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v7.0" nonce="3NQDK2TG"></script>
+	 
+	<div class="fb-comments" data-href="https://sjkangblog.github.io/mediationanalysis.html" data-numposts="1" data-width=""></div>
+	
+	</ul>
+        </div>
+      	</div>	    
+    	</div> 
+	<!-- Comments end -->
+	
   <hr>
 	
 
