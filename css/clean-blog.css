@@ -441,7 +441,8 @@ footer .copyright {
   position: fixed; 
   left: calc(50% - 125px - 1px - 6px); 
   top: 25%; 
-  z-index: 1; } 
+  z-index: 1; 
+} 
 
 .wordNote:hover .wordNoteText {visibility: visible; }
 /* Footnotes end */
